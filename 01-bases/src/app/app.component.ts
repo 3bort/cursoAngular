@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   titulo: string = 'Contador App'; // El titulo que podemos colocar en app.component.html
+  numero: number = 10;
 }
