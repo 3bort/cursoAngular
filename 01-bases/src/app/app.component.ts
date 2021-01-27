@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-root', //Root que está en el index.htmk
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  //template: '<span>Emilio</span>',
+  //styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
+  titulo: string = 'Contador App'; // El titulo que podemos colocar en app.component.html
 }
