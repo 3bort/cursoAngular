@@ -1,8 +1,7 @@
 <p>Listado de Héroes</p>
 
-<div>
-<h3>Héroe Borrado</h3>
-<span>{{borrado}}</span>
+<div *ngIf="borrado !== ''">
+<h3>Héroe Borrado</h3><small>{{borrado}}</small>
 </div>
 
 <br>
